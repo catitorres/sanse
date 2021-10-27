@@ -1,0 +1,138 @@
+$orange: #ffa424;
+
+.categoria{
+    font-size: 8px;
+    margin-right: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    border-color: black;
+    color: black;
+}
+$orange: #ffa424;
+.tituloInicio{
+    color: blanchedalmond;
+}
+.tarjetasServicios{
+    color: rgb(0, 0, 0);
+}
+.iconosInicio{
+    color:blanchedalmond;
+}
+.iconoMenu{
+    color: blanchedalmond;
+}
+.decorationNone{
+    text-decoration: none !important;
+    color: blanchedalmond !important;
+}
+.carro{
+    color: blanchedalmond;
+}
+.produ{
+    color: blanchedalmond;
+}
+
+// botones
+
+.boton{
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: $orange;
+    background-color: white;
+}
+
+.botonCompra{
+    color: black;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: $orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: $orange;
+}
+.categoria{
+    font-size: 8px;
+    margin-right: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    border-color: black;
+    color: black;
+}
+.sumarProdu{
+    color: black;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.restarProdu{
+    color: black;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.eliminarProdu{
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: red;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.btn-combos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.incluyeStyle{
+    color: white;
+    background-color: $orange;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.productosTitulo{
+    font-size: 30px;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 30px;
+}
+.carritoStyle{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+.botonCombos{
+    color: black;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: $orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: $orange; 
+}
+.confirmarCompra{
+    color: blanchedalmond;
+}

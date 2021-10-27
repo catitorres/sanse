@@ -1,0 +1,12 @@
+[{"id":1,"nombre":"Equipo deportivo","precio":345.95,"categoria":"ROPA DEPORTIVA","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/5fa2dd/ffffff"},
+{"id":2,"nombre":"Uniforme de trabajo","precio":2132.19,"categoria":"ROPA DE TRABAJO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/ff4444/ffffff"},
+{"id":3,"nombre":"Gorra","precio":2105.48,"categoria":"ACCESORIOS","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/5fa2dd/ffffff"},
+{"id":4,"nombre":"Bandera","precio":1928.47,"categoria":"ACCESORIOS","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/cc0000/ffffff"},
+{"id":5,"nombre":"Delantal","precio":861.2,"categoria":"ROPA DE TRABAJO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/cc0000/ffffff"},
+{"id":6,"nombre":"Gorro de invierno","precio":2275.79,"categoria":"PERSONALIZADO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/cc0000/ffffff"},
+{"id":7,"nombre":"Guantes","precio":2557.03,"categoria":"ACCESORIOS","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/dddddd/000000"},
+{"id":8,"nombre":"Remera personalizada","precio":1823.91,"categoria":"PERSONALIZADO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/ff4444/ffffff"},
+{"id":9,"nombre":"Buzo de egresados","precio":1031.97,"categoria":"ESCOLAR","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/ff4444/ffffff"},
+{"id":10,"nombre":"Chaleco","precio":2240.12,"categoria":"PERSONALIZADO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/ff4444/ffffff"},
+{"id":11,"nombre":"Tapabocas","precio":2059.72,"categoria":"PERSONALIZADO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/ff4444/ffffff"},
+{"id":12,"nombre":"Campera de invierno","precio":2142.95,"categoria":"PERSONALIZADO","cantidad":1,"imagen":"http://dummyimage.com/250x250.png/5fa2dd/ffffff"}]

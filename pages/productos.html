@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color:sandybrown;">
+            <a class="navbar-brand decorationNone" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon iconoMenu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link decorationNone" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link decorationNone" href="pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link decorationNone" href="#">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link decorationNone" href="#">Contacto</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="productosTitulo">PRODUCTOS</h2>
+    </div>
+    <hr style="color: blanchedalmond;">
+    <section>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="../assets/iconos/carritoSmall.png" alt=""> <span id="cantidadTotal" class="badge badge-light">0</span>
+            </button>
+            <div id="productosTotal" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            </div>
+        </div>
+        <hr>
+        <div class="input-group mb-3 categoriaSize">
+            <div class="input-group-prepend">  
+                <label class="input-group-text " for="filtroCategorias">Categorias</label>
+            </div>
+            <select class="custom-select" id="filtroCategorias"></select>
+        </div>
+        <div id="notificaciones"></div>
+        <section class="container btn-combos">
+            <div>
+                <button id="btn-combo" class="botonCombo">COMBO 1</button>
+				<div id="incluye" class="incluyeStyle" style="display: none;">
+                    <hr style= "color: palegoldenrod;">
+                    <p>- Gorro de invierno</p>
+                    <p>- Guantes de invierno</p>
+                    <p>- Campera rompe vientos</p>
+                    <p style="font-size: 20px;">TODO PERSONALIZADO!</p>
+				</div>
+            </div>
+            <div>
+                <button id="btn-combo1" class="botonCombo">COMBO 2 (escolar)</button>
+				<div id="incluye1" class="incluyeStyle" style="display: none;">
+                    <hr style= "color: palegoldenrod;">
+                    <p>- Gorra</p>
+                    <p>- Buzo de egresados</p>
+                    <p>- Bandera</p>
+                    <p style="font-size: 20px;">TODO PERSONALIZADO!</p>
+				</div>
+            </div>
+            <div>
+                <button id="btn-combo2" class="botonCombo">COMBO 3</button>
+				<div id="incluye2" class="incluyeStyle" style="display: none;">
+                    <hr style= "color: palegoldenrod;">
+                    <p>- Gorra</p>
+                    <p>- Remera modelo a eleccion</p>
+                    <p>- Tapaboca</p>
+                    <p style="font-size: 20px;">TODO PERSONALIZADO!</p>
+				</div>
+            </div>
+            <div>
+                <button id="btn-combo3" class="botonCombo">COMBO 4</button>
+				<div id="incluye3" class="incluyeStyle" style="display: none;">
+                    <hr style= "color: palegoldenrod;">
+		            <p>- Equipo deportivo</p>
+                    <p>- Bandera</p>
+                    <p>- Campera/Buzo</p>
+                    <p style="font-size: 20px;">TODO PERSONALIZADO!</p>
+				</div>
+            </div>
+        </section>    
+    </section>
+    
+    <div id="productosPublicados" class="card-columns"></div>
+    <footer>
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12 footerFlex">
+                    <section>
+                        LOGO
+                    </section>
+                    <section class="contact">
+                        <div class="divMail"><img src="../assets/logo/logoMail.png" alt="Mail" class="imgRRSS"></div>
+                        <div class="divPhone"><img src="../assets/logo/logoPhone.png" alt="call" class="imgRRSS"></div>
+                        <div class="divWsp"><a href="https://web.whatsapp.com/" target="_blank" class="sacarSubrayado"><img src="../assets/logo/logoWsp.png" alt="whatsapp" class="imgRRSS"></a></div>
+                    </section>
+                    <div><p class="lema"><strong>A TU ESTILO</strong></p></div>				    
+                </div>
+            </div>	
+        </section>		
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+    <script src="../js/funciones.js"></script>
+    <script src="../js/productos.js"></script>
+    <script src="../js/globales.js"></script>
+    <script src="../js/contenido.js"></script>
+</body>
+</html>

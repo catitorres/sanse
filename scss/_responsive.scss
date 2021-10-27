@@ -1,0 +1,179 @@
+@import "colores";
+@import "colores";
+@mixin flex-row{
+	display:flex;
+	flex-direction:row;
+}
+
+@mixin flex-col{
+	display:flex;
+	flex-direction:column;
+}
+@mixin flex-row-center{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+@mixin position-relative{
+	position: relative;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: $orange;
+}
+nav{
+    color: black;
+}
+.banner{
+    width: 100%;
+}
+.tituloPrincipal{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+}
+.imagenInicio{
+    margin-left: 0px;
+}
+.parallax {
+
+    /* The image used */
+  
+    background-image: url("../assets/images/banner.jpg");
+  
+    /* Set a specific height */
+  
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+  
+    background-attachment: fixed;
+  
+    background-position: center;
+  
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+// .modificandoMargin{
+//     margin-right: 50px;
+//     padding-left: 20px;
+// }
+.modificandoPadding{
+    padding-left: 0px;
+}
+.serviciosFlex{
+    @include flex-row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjetasFlex{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: center;
+}
+.tarjetasServicios{
+    padding: 3%;
+	margin: 1%;
+	width: 300px;
+	border-style: solid;
+	border-color:$orange;
+	border-radius: 8px;
+	border-width: 5px;
+    background-color: white;
+	box-shadow: 5px 5px 21px -2px rgba(0,0,0,0.1);
+
+	&:hover{
+		box-shadow: 5px 5px 21px -2px rgba(0,0,0,0.25);
+		animation: pulse 1s;
+	}
+}
+.muchoMas{
+    font-size: 40px;
+    color:blanchedalmond;
+    text-align: center;
+}
+#productosPublicados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer{
+	@include flex-row-center;
+	justify-content: flex-start;
+	background-color: $orange;
+
+}
+.footerFlex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.contact{
+	padding: 10px;
+	@include flex-row-center;
+	justify-content: flex-start;
+	align-content: space-around;
+	align-items: center;
+}
+.lema{
+	font-size: 40px;
+	margin-top: 30px;
+		
+}
+
+.divMail{
+	padding-right: 30px;
+	padding-left: 10px;
+	
+}
+.divPhone{
+    padding-right: 20px;
+	
+}
+
+.imgRRSS:hover{
+	transform: translateY(-20px);
+	transition: all 1s;
+}
+.iconosHover:hover{
+	transform: translateY(-20px);
+	transition: all 1s;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: space-between;
+    justify-content: space-evenly;
+}
+.productoEnCarrito{
+    font-size: 20px;
+}
+.card-produ{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.btn-combos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.categoriaSize{
+    width: 200px;
+}
